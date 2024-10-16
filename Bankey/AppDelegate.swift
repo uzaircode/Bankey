@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     loginViewController.delegate = self
     dummyViewController.logoutDelegate = self
     
-    window?.rootViewController = mainViewController
+    window?.rootViewController = AccountSummaryViewController()
     window?.makeKeyAndVisible()
     
     return true
